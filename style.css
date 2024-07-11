@@ -36,7 +36,7 @@ nav {
   background-color: white;
 }
 .hero {
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("assets/Hero-bg.png");
   object-fit: cover;
   width: 1440px;
   display: flex;
@@ -220,7 +220,7 @@ nav {
 .need-support{
     width: 1140px;
     height: 314px;
-    background: url(/assets/handshake.jpg) ;
+    background: url(assets/handshake.jpg) ;
     background-position: center center;
     opacity: 0.5;
     object-fit: cover;
