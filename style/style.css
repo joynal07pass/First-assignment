@@ -31,6 +31,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
     
 }
 .content{
@@ -56,3 +58,78 @@ nav{
     background-color: black;
     color: white;
 }
+
+.why-section{
+    width: 1140px;
+    margin: 0px auto;
+    padding: 50px;
+}
+.why-heading{
+    margin-bottom: 48px;
+}
+
+.why-web, .why-web-descripion{
+    text-align: center;
+    padding: 15px 48px;
+}
+
+.three-section{
+    padding: 48px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.first-setion{
+    display: flex;
+    gap:35%;
+}
+.first-section-content{
+    width: 100%;
+
+}
+.first-section-content h3, .first-section-content p, .first-section-content button{
+padding: 15px 00px;
+}
+.first-section-content button{
+    background-color: white;
+    font-size: 18px;
+    padding: 10px 24px;
+}
+
+.second-setion{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3%;
+}
+.second-section-content{
+    width: 100%;
+
+}
+.second-section-content h3, .second-section-content p, .second-section-content button{
+padding: 15px 00px;
+}
+.second-section-content button{
+    background-color: white;
+    font-size: 18px;
+    padding: 10px 24px;
+}
+.my-insperation-section{
+    width: 1140px;
+    margin: 0px auto;
+    padding: 50px;
+}
+.my-insperation-heading{
+    margin-bottom: 48px;
+}
+
+.my-insperation, .my-insperation-descripion{
+    text-align: center;
+    padding: 15px 48px;
+}
+.video{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/* my current target */
