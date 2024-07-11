@@ -217,12 +217,15 @@ nav {
 }
 
 /* I need support */
+
 .need-support{
     width: 1140px;
     height: 314px;
-    background: url(assets/handshake.jpg) ;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(assets/handshake.jpg) ;
     background-position: center center;
-    opacity: 0.5;
     object-fit: cover;
     display: flex;
     flex-direction: column;
@@ -230,7 +233,6 @@ nav {
     justify-content: center;
     color: white;
 }
-
 .need-support h2, .need-support p{
     padding: 10px;
 }
