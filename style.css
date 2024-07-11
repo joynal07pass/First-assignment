@@ -19,6 +19,12 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+.bold-font{
+    font-weight: bold;
+}
+.regular-font{
+    font-weight:400
+}
 .logo {
   font-family: azeret mono;
   font-weight: 800;
