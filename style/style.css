@@ -1,135 +1,199 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    margin: 0px;
-    padding: 0px;
-
-}
-
-nav{
-    width: 1140px;
-    margin: 38px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{
-    font-family: azeret mono;
-    font-weight: 800;
-    font-size: 28px;
-}
-.dwonload-button{
-    padding: 13px 24px;
-    font-size: 20px;
-    background-color: white;
-
-}
-.hero{
-    background-image: url('/assets/Hero-bg.png');
-    object-fit: cover;
-    width: 1440px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0px;
-    margin-bottom: 20px;
-    
-}
-.content{
-    width: 998px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    
-}
-.content > h4{
-    font-size: 48px;
-}
-.content > p{
-    font-size: 20px;
-}
-.content > button{
-    padding: 13px 24px;
-    font-size: 20px;
-    font-weight: 600px;
-    background-color: black;
-    color: white;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.why-section{
-    width: 1140px;
-    margin: 0px auto;
-    padding: 50px;
+nav {
+  width: 1140px;
+  margin: 38px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.why-heading{
-    margin-bottom: 48px;
+.logo {
+  font-family: azeret mono;
+  font-weight: 800;
+  font-size: 28px;
 }
-
-.why-web, .why-web-descripion{
-    text-align: center;
-    padding: 15px 48px;
+.dwonload-button {
+  padding: 13px 24px;
+  font-size: 20px;
+  background-color: white;
 }
-
-.three-section{
-    padding: 48px 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.hero {
+  background-image: url("/assets/Hero-bg.png");
+  object-fit: cover;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  margin-bottom: 20px;
 }
-.first-setion{
-    display: flex;
-    gap:35%;
+.content {
+  width: 998px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
-.first-section-content{
-    width: 100%;
-
+.content > h4 {
+  font-size: 48px;
 }
-.first-section-content h3, .first-section-content p, .first-section-content button{
-padding: 15px 00px;
+.content > p {
+  font-size: 20px;
 }
-.first-section-content button{
-    background-color: white;
-    font-size: 18px;
-    padding: 10px 24px;
-}
-
-.second-setion{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 3%;
-}
-.second-section-content{
-    width: 100%;
-
-}
-.second-section-content h3, .second-section-content p, .second-section-content button{
-padding: 15px 00px;
-}
-.second-section-content button{
-    background-color: white;
-    font-size: 18px;
-    padding: 10px 24px;
-}
-.my-insperation-section{
-    width: 1140px;
-    margin: 0px auto;
-    padding: 50px;
-}
-.my-insperation-heading{
-    margin-bottom: 48px;
+.content > button {
+  padding: 13px 24px;
+  font-size: 20px;
+  font-weight: 600px;
+  background-color: black;
+  color: white;
 }
 
-.my-insperation, .my-insperation-descripion{
-    text-align: center;
-    padding: 15px 48px;
+.why-section {
+  width: 1140px;
+  margin: 0px auto;
+  padding: 50px;
 }
-.video{
-    margin: 0 auto;
-    width: 100%;
+.why-heading {
+  margin-bottom: 48px;
 }
 
+.why-web,
+.why-web-descripion {
+  text-align: center;
+  padding: 15px 48px;
+}
+
+.three-section {
+  padding: 48px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.first-setion {
+  display: flex;
+  gap: 35%;
+}
+.first-section-content {
+  width: 100%;
+}
+.first-section-content h3,
+.first-section-content p,
+.first-section-content button {
+  padding: 15px 00px;
+}
+.first-section-content button {
+  background-color: white;
+  font-size: 18px;
+  padding: 10px 24px;
+}
+
+.second-setion {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 3%;
+}
+.second-section-content {
+  width: 100%;
+}
+.second-section-content h3,
+.second-section-content p,
+.second-section-content button {
+  padding: 15px 00px;
+}
+.second-section-content button {
+  background-color: white;
+  font-size: 18px;
+  padding: 10px 24px;
+}
+.my-insperation-section {
+  width: 1140px;
+  margin: 0px auto;
+  padding: 50px;
+}
+.my-insperation-heading {
+  margin-bottom: 48px;
+}
+
+.my-insperation,
+.my-insperation-descripion {
+  text-align: center;
+  padding: 15px 48px;
+}
+.video {
+  margin: 0 auto;
+  width: 100%;
+}
 
 /* my current target */
+.my-target-section {
+  width: 1140px;
+  margin: 0px auto;
+  padding: 50px;
+}
+.my-target-heading {
+  margin-bottom: 48px;
+}
+.my-target-three{
+    display: flex;
+    gap: 20px;
+}
+
+.my-target,
+.my-target-descripion {
+  text-align: center;
+  padding: 15px 48px;
+}
+
+.my-target-first {
+    width: 380px;
+    background-color: #fff6f4;
+    padding: 30px;
+}
+.my-target-first img, .my-target-first h2, .my-target-first p, .my-target-first a{
+    padding: 10px;
+}
+.my-target-first a{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+.my-target-second {
+    width: 380px;
+    background-color: #f2f6fe;
+    padding: 30px;
+}
+.my-target-second img, .my-target-second h2, .my-target-second p, .my-target-second a{
+    padding: 10px;
+}
+.my-target-second a{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+.my-target-third {
+    width: 380px;
+    background-color: #fffdf2;
+    padding: 30px;
+}
+.my-target-third img, .my-target-third h2, .my-target-third p, .my-target-third a{
+    padding: 10px;
+}
+.my-target-third a{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
